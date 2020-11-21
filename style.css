@@ -1,0 +1,63 @@
+	
+/*!
+Theme Name: theme nhóm 9
+Theme URI: localhost/theme
+Author: nhóm 9
+Author URI: localhost/theme
+Description: theme tự làm của nhóm 9 - chủ đề : bán quần áo bóng đá
+Version: 1.0.0
+......
+*/
+#topbar{
+    padding: 10px 0;
+    background-color: rgba(0,0,0,.3);
+    color: white;
+}
+.cart-contents{
+    background-color: #007bff;
+    padding: 3px 7px;
+    border-radius: 3px;
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
+.cart-contents:hover{
+    text-decoration: none;
+    color: white;
+}
+/* logo */
+.logo{
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+}
+#footer{
+    background-image: url('./assets/images/banner.jpg');
+    mix-blend-mode:  darken;
+    position: relative;
+    color: white;
+}
+#overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background-color: rgba(0,0,0,.4);
+    z-index: -1;
+}
+.footer-widgets{
+    padding: 20px 0;
+}
+
+/* điện thoại */
+@media screen and (max-device-width : 375px){
+    .footer-widget.widget_text{
+        text-align: center;
+    }
+}
+/* tablet */
+@media screen and (min-device-width: 376px) and (max-device-width:768px){
+    .footer-widget.widget_text{
+        text-align: center;
+    }
+}
